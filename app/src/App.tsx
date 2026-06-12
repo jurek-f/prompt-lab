@@ -41,6 +41,9 @@ export default function App() {
         if (data.google) providers.add('google')
         if (data.openai) providers.add('openai')
         setAvailableProviders(providers)
+        // If the stored model's provider isn't available, fall back to ollama
+        if (!providers.has(MODEL_PROVIDER[responseModel])) setResponseModel('ollama' as ModelKey)
+        if (!providers.has(MODEL_PROVIDER[evalModel])) setEvalModel('ollama' as ModelKey)
       })
       .catch(() => { /* leave null → show all */ })
   }, [])
