@@ -1,0 +1,3 @@
+# Python dependencies for services/
+# Both generate_test_cases.py and generate_system_prompt.py use stdlib only.
+# Add third-party packages here if future scripts require them.
