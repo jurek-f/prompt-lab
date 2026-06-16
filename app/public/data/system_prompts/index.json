@@ -1,0 +1,10 @@
+[
+  { "id": "explain",             "label": "Explain (what is, how does)" },
+  { "id": "generate",            "label": "Generate (write, draft, create)" },
+  { "id": "transform",           "label": "Transform (rewrite, translate, format)" },
+  { "id": "extract",             "label": "Extract (list, find, summarize)" },
+  { "id": "compare",             "label": "Compare (X vs Y, differences)" },
+  { "id": "reason",              "label": "Reason (analyze, evaluate, why)" },
+  { "id": "classify",            "label": "Classify (categorize, label, is this X)" },
+  { "id": "flashcard-generator", "label": "Flashcard generator" }
+]
